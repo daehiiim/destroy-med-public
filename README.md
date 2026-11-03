@@ -3,6 +3,8 @@
 
 > 현행 기준: 2026-11-04 · 애플리케이션 버전 0.55.5
 
+[![개발자한테 커피 한 잔 쏘기](readme/donate-button.svg)](#후원)
+
 ![SMASH 병원 게임 화면](readme/game.jpg)
 
 # 개요
@@ -166,3 +168,11 @@ Browser
 - 지형: AWS Terrain Tiles
 - 효과음: [public/sfx/CREDITS.md](public/sfx/CREDITS.md). CC BY-NC 음원이 섞여 있어 상업적으로 쓸 수 없습니다.
 - 배경음악 파일(`public/sfx/bgm.m4a`)은 이 저장소에 없습니다. 없으면 배경음악 없이 효과음만 납니다.
+
+# 후원
+
+개발자한테 커피 한 잔 쏘기! 작은 응원이 개발자에게는 큰 힘이 됩니다.
+
+<img src="src/assets/donate/toss-qr-5000.webp" width="200" alt="토스 송금 QR 코드, 5,000원">
+
+QR이 안 찍히면 토스뱅크 `1001-2786-7546`으로 보내 주세요.
