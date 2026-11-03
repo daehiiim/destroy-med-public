@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SMASH 엔진 확인</title>
+    <style>
+      html, body { margin: 0; height: 100%; background: #dfe6ea; font: 14px system-ui, sans-serif; }
+      #game { position: fixed; inset: 0; }
+      #bar { position: fixed; left: 8px; bottom: 8px; display: flex; gap: 4px; flex-wrap: wrap; z-index: 2; }
+      #bar button { font: 14px system-ui; padding: 6px 10px; border: 0; border-radius: 6px; background: #22252a; color: #fff; }
+      #bar button.on { background: #f26b2a; }
+      #hud { position: fixed; right: 8px; top: 8px; padding: 6px 10px; border-radius: 6px; background: #22252a; color: #fff; z-index: 2; white-space: pre; }
+    </style>
+  </head>
+  <body>
+    <div id="game"></div>
+    <div id="bar"></div>
+    <div id="hud"></div>
+    <script type="module" src="./dev.ts"></script>
+  </body>
+</html>
